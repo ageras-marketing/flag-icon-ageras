@@ -18,6 +18,18 @@
   }
 }
 
+.flag-icon-24px {
+	font-size: 24px;
+}
+
+.flag-icon-32px {
+	font-size: 32px;
+}
+
+.flag-icon-48px {
+	font-size: 48px;
+}
+
 @mixin flag-icon($country) {
   .flag-icon-#{$country} {
     background-image: url(#{$flag-icon-css-path}#{$flag-icon-rect-path}/#{$country}.svg);
